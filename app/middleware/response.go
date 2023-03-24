@@ -15,7 +15,6 @@ func ResponseMiddleware() gin.HandlerFunc {
 					RequestID: c.MustGet("requestID").(string),
 				},
 			},
-			Errors:     nil,
 			StatusCode: 200,
 		}
 		c.Set("response", response)

@@ -16,5 +16,5 @@ func (c *UserController) Get(ctx *gin.Context) {
 	// ...
 
 	// 将响应数据保存到 response 实例中
-	c.Response(ctx, http.StatusOK, "成功", "userdata")
+	c.Response(ctx, http.StatusOK, "成功", "userdata", "e")
 }
