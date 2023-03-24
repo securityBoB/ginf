@@ -1,0 +1,9 @@
+port = ":8888"
+
+[database]
+host = "192.168.0.222"
+password = "123456"
+username = "root"
+port = "3306"
+dbname = "bob_t2"
+charset = "utf8"
